@@ -1,0 +1,7 @@
+<h1>Agregar Lista</h1>
+
+<%= form_for @list do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.submit %>
+<% end %>
